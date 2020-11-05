@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad6d8945-ed1c-42a7-8b6b-117c6c120660" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1jrOFPfcGsMyL1LsW8A8N2VhN7k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad6d8945-ed1c-42a7-8b6b-117c6c120660" name="Default Changelist" comment="" />
+      <created>1604558641084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604558641084</updated>
+      <workItem from="1604558642330" duration="87000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-930" y="-77" key="#HTML" timestamp="1604558729376">
+      <screen x="-1440" y="-77" width="1440" height="877" />
+    </state>
+    <state x="-930" y="-77" key="#HTML/0.23.1280.777/-1440.-77.1440.877@-1440.-77.1440.877" timestamp="1604558729376" />
+    <state x="-1212" y="0" key="SettingsEditor" timestamp="1604558678763">
+      <screen x="-1440" y="-77" width="1440" height="877" />
+    </state>
+    <state x="-1212" y="0" key="SettingsEditor/0.23.1280.777/-1440.-77.1440.877@-1440.-77.1440.877" timestamp="1604558678763" />
+  </component>
+</project>
