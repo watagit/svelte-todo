@@ -5,7 +5,7 @@
 	<button on:click={() => { condition = true }}>完了</button>
 </div>
 <div>
-	<input type="text" bind:value={title}>
+	<input type="text" bind:value={title} bind:this={initFocus}>
 	<button on:click={() => add()}>タスク追加</button>
 </div>
 <div>
@@ -19,23 +19,36 @@
 </div>
 
 <script>
+	import { onMount } from 'svelte'
+
+	let title = ''
+	let initFocus = null
+	let condition = null
 	let todoList = [
 		{ id: 0, done: false, title: 'レストランを予約する' },
 		{ id: 1, done: false, title: 'サプライズ用の指輪を買う' },
 		{ id: 2, done: false, title: 'フラッシュモブダンスを練習する' },
 	]
 
-	let title = ''
+	onMount(() => {
+		init()
+	})
+
+	function init() {
+		title = ''
+		initFocus.focus()
+	}
+
 	function add() {
 		todoList = [...todoList,
 			{
 				id: todoList.length,
 				done: false,
-				title: title
+				title
 			}]
+		init()
 	}
 
-	let condition = null
 
 	$: filterdTodoList = (todoList, condition) => {
 		return condition === null ? todoList : todoList.filter(t => t.done === condition)
